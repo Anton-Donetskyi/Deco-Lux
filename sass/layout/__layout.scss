@@ -1,0 +1,160 @@
+html,									
+body{
+	height: 100%;
+}
+
+body {
+	background: #e4e4e4 url('../images/backgrounds/bg-page.jpg');			
+	
+	font: 14px/1.2 Arial, Verdana, Tahoma, Sans-serif;						
+}
+
+.wrapper{
+	display: table;
+	width: 100%;
+	min-height: 100%;
+}
+
+.page-container{
+	display: table-row;
+	height: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+}									 
+
+.page-header {
+	margin: 45px 0 35px;		
+}
+
+.banner{
+	margin: 0 0 33px;
+	
+	border: 10px solid #fff;
+	border-radius: 3px;
+	
+	line-height: 0;					
+	
+	img{
+		max-width:100%;				
+	}
+}
+
+.box{								
+	padding: 20px;
+	
+	background: #fff;
+	border: 1px solid #d8d8d8;
+}
+
+.sidebar{
+	margin: 0 0 0 15px;
+	
+	float: right;
+	width: 245px;
+}
+				
+.page-content{
+	overflow: hidden;
+}		
+
+.heading{
+	margin: 0 0 20px;
+		
+	color: #000;
+	
+	font-weight: normal;
+	font-size: 30px;
+		
+	border-bottom: 1px solid #d8d8d8;
+	span{
+		color: #f5b61a;
+	}
+	
+}
+.wysiwyg{											
+	p{
+		margin: 0;
+		
+		color: #444;
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+.box-item{
+	.sub-heading{
+		margin: 0 0 7px;
+		
+		color: #f5b61a;
+		font-weight: normal;
+		font-size: 14px;
+	}	
+	
+	.photo{
+		margin: 0 0 10px;
+		
+		line-height: 0;
+		text-align: center;
+		
+		border: 1px solid #d8d8d8;
+		
+		img{
+			max-width: 100%;
+		}
+	}
+
+	.date{
+		margin: 0;
+		
+		color: #000;
+		font-style: italic;
+		font-size: 11px;
+		line-height: 14px;
+	}	
+	
+	.desxription{
+		margin: 0;
+		
+		color: #444;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	
+	.link-container{
+		overflow: hidden;
+	}
+	
+	.link{
+		float: right;
+		color: #f5b61a;
+		
+		font-size: 12px;
+		line-height: 1;
+		
+		text-decoration: none;
+	}
+}		
+
+.page-footer{
+	padding: 20px;
+	text-align: center;
+	
+	border-top: 1px solid #bbb;
+	box-shadow: inset 0 1px; 
+
+	.nav{
+		padding: 0;
+		
+		&-list{
+			text-align: inherit;
+		}
+	}
+}
+@import "header.scss";
+//@import "content.scss";
+//@import "sidebar.scss";
+//@import "footer.scss";
